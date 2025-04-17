@@ -1,0 +1,53 @@
+{
+  "name": "@saude-conectada/frontend-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src --ext .ts,.tsx",
+    "format": "prettier --write \"src/**/*.{ts,tsx}\"",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@react-navigation/native": "^6.1.9",
+    "@react-navigation/native-stack": "^6.9.17",
+    "@tanstack/react-query": "^5.74.3",
+    "axios": "^1.6.7",
+    "expo": "~50.0.5",
+    "expo-status-bar": "~1.11.1",
+    "framer-motion": "^11.0.5",
+    "i18next": "^23.8.2",
+    "react": "18.2.0",
+    "react-native": "0.73.2",
+    "react-native-gesture-handler": "~2.14.0",
+    "react-native-reanimated": "~3.6.2",
+    "react-native-safe-area-context": "4.8.2",
+    "react-native-screens": "~3.29.0",
+    "react-native-vector-icons": "^10.0.3",
+    "react-query": "^3.39.3",
+    "socket.io-client": "^4.7.4",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@testing-library/jest-native": "^5.4.3",
+    "@testing-library/react-native": "^12.4.3",
+    "@types/jest": "^29.5.12",
+    "@types/react": "~18.2.45",
+    "@typescript-eslint/eslint-plugin": "^7.0.1",
+    "@typescript-eslint/parser": "^7.0.1",
+    "eslint": "^8.56.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3"
+  }
+}
